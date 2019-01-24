@@ -1,5 +1,5 @@
 # Overview
-The goal of the project is to detect and locate objects given RGB-D Point Cloud data. The data is filtered and segmented using the Point Cloud Library (PCL). The techniques applied include RANSAC, DBSCAN, Voxel Grid Down-sampling Filter, etc. An SVM model is also trained using color histogram for object recognition.
+The goal of the project is to detect and locate objects given Point Cloud data from an RGB-D camera. The data is filtered and segmented using the Point Cloud Library (PCL). The techniques applied include RANSAC, DBSCAN, Voxel Grid Down-sampling Filter, etc. An SVM model is also trained using color histogram for object recognition.
 
 # Project Snapshots
 

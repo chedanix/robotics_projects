@@ -1,0 +1,9 @@
+source ~/catkin_robond1/devel/setup.bash
+
+# open pick_place_project.launch and choose setting e.g.: test3.world & pick_list_3.yaml
+roslaunch pr2_robot pick_place_project.launch
+
+# cd is required because the trained SVM model (project_model.sav) is there
+cd /home/robond/catkin_robond1/src/RoboND-Perception-Project/pr2_robot
+rosrun pr2_robot project_template.py
+

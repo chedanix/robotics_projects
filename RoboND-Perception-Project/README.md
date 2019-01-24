@@ -32,7 +32,7 @@ $ catkin_make
 Now that you have a workspace, clone or download this repo into the src directory of your workspace:
 ```sh
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/udacity/RoboND-Perception-Project.git
+$ git clone https://github.com/chedanix/robotics_projects/tree/master/RoboND-Perception-Project
 ```
 
 Now install missing dependencies using rosdep install:
@@ -62,5 +62,5 @@ source ~/catkin_ws/devel/setup.bash
   - `roslaunch pr2_robot pick_place_project.launch`
 - Terminal 2
   - source setup.bash
-  - cd into pr2_robot folder because the trained SVM model (project_model.sav) is there
+  - `cd pr2_robot`
   - `rosrun pr2_robot project_template.py`

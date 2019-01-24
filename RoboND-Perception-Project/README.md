@@ -4,19 +4,20 @@ The goal of the project is to detect and locate objects given RGB-D Point Cloud 
 # Project Snapshots
 
 The project takes place in a Gazebo simulation world, where there is a table full of objects and a robot equipped with an RGB-D Camera.\
-![](pictures/env_setup.PNG =600x)
+<img src="pictures/env_setup.PNG" width=600>
 
 The robot uses its RGB-D camera to generate a point cloud.\
-![](pictures/raw_pc.PNG =600x)
+<img src="pictures/raw_pc.PNG" width=600>
 
-A pass-through filter and RANSAC is used to remove the table.\
-![](pictures/RANSAC.PNG =600x)
+Pass-through filter and RANSAC are used to remove the table.\
+<img src="pictures/RANSAC.PNG" width=600>
 
 DBSCAN is used to segment the objects.\
-![](pictures/DBSCAN.PNG =600x)
+<img src="pictures/DBSCAN.PNG" width=600>
 
 SVM is applied to recognize the segmented objects.\
-![](pictures/SVM.PNG =600x)
+<img src="pictures/SVM.PNG" width=600>
+
 
 # Project Setup
 For this setup, catkin_ws is the name of active ROS Workspace, if your workspace name is different, change the commands accordingly

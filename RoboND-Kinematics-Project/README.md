@@ -31,11 +31,11 @@ If you do not have an active ROS workspace, you can create one by:\
 `catkin_make`
 
 Now that you have a workspace, clone or download project repository into the src directory of your workspace:\
-`cd ~/catkin_ws/src`
+`cd ~/catkin_ws/src`\
 `git clone https://github.com/chedanix/robotics_projects/tree/master/RoboND-Kinematics-Project`
 
 Now we will install missing dependencies"\
-`cd ~/catkin_ws`
+`cd ~/catkin_ws`\
 `rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y`
 
 Next we will change the permissions of script files to turn them executable:\

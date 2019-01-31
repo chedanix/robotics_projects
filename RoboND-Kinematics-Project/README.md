@@ -32,7 +32,7 @@ If you do not have an active ROS workspace, you can create one by:\
 
 Now that you have a workspace, clone or download project repository into the src directory of your workspace:\
 `cd ~/catkin_ws/src`
-`git clone https://github.com/udacity/RoboND-Kinematics-Project.git`
+`git clone https://github.com/chedanix/robotics_projects/tree/master/RoboND-Kinematics-Project`
 
 Now we will install missing dependencies"\
 `cd ~/catkin_ws`

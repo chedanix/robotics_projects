@@ -1,0 +1,10 @@
+#To launch:
+roslaunch slam_project world.launch
+roslaunch slam_project teleop.launch
+roslaunch slam_project mapping.launch
+roslaunch slam_project rviz.launch
+
+#run this if rtabmap-databaseViewer gives the error "error while loading shared libraries"
+sudo ldconfig
+
+#if teleop can't be found, make teleop.py executable
